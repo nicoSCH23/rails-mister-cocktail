@@ -40,9 +40,10 @@ cocktails_name = ['Vanillabean Drink',
 'Oblivious Enigma',
 'Autumn Earthquake',
 'Caramel Zombie',
+'Barbarian Delight',
 'Cinnamon Cider',
 'Mango Walker']
-20.times do
+21.times do
 
  cocktail = Cocktail.create(
     name:    cocktails_name[i - 1],

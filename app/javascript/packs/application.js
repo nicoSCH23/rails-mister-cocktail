@@ -8,3 +8,10 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+import { initUpdateNavbarOnScroll } from '../components/navbar.js';
+initUpdateNavbarOnScroll();
+
+import { loadDynamicBannerText } from '../components/banner';
+loadDynamicBannerText();
+
+import '../components/select2';
